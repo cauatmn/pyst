@@ -26,7 +26,7 @@ def SelectSort(list):
 			if list[position] > list[j]:
 				partition = j
 		if position != i:
-			tmp = list[position]
+	 		tmp = list[position]
 			list[position] = list[i]
 			list[i] = tmp
 	return  list
@@ -34,4 +34,5 @@ def SelectSort(list):
 if __name__ == '__main__':
 	list = [6,7,5,2,3,4,1]
 	print InsertionSort(list)
+    print SelectSort(list)
 	print SelectSort(list)

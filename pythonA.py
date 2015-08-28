@@ -34,5 +34,4 @@ def SelectSort(list):
 if __name__ == '__main__':
 	list = [6,7,5,2,3,4,1]
 	print InsertionSort(list)
-	print '1'
 	print SelectSort(list)
